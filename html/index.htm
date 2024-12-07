@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alain Monroy Portfolio </title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- MENU HEADER -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Alain</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contáctame</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- MENU INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="conetendor-img">
+                <img src="../img/PerfilPortafolio.png" alt="Imagen de fondo perfil">
+            </div>
+            <h1>ALAIN MONROY</h1>
+            <h2>Desarrollador Web</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, Soy Alain Monroy.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti
+                repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores
+            </p>
+
+            <div class="fila">
+                <!--Datos Personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            25-09-1997
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            3348786858
+                        </li>
+                        <li>
+                            <strong>Correo electrónico</strong>
+                            alainisraelmj@gmail.com
+                        </li>
+                    </ul>
+                </div>
+                <!--Intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJES</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FUTBOL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                DESCARGAR CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- MENU SKILLS -->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skills-->
+                <div class="col">                    
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Canva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">                    
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Facilidad de palabra</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Organizado</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Tiempo y forma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <!--Educacion-->
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Profesional Técnico en Informática y Programación</h4>
+                        <span class="casa">Colegio Nacional de Educación Profesional Técnica</span>
+                        <span class="fecha">2013 - 2017</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                            unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti
+                            repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Sistema Operativo Windows</h4>
+                        <span class="casa">Centro de Enseñanza Técnica Industrial</span>
+                        <span class="fecha">2012</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                            unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti
+                            repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <!--Experiencia-->
+                <div class="col derecha">
+                    <h3>Experiencia Profesional</h3>
+                    <div class="item der">
+                        <h4>Desarrollador Especializado Fullstack</h4>
+                        <span class="casa">Mavi de Occidente</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                            unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti
+                            repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+     <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <!-- Proyectos -->
+                <div class="proyecto">
+                    <img src="../img/html-css.jpg" alt="HTMLCSS">
+                    <div class="overlay">
+                        <h3>Diseño de paginas con HTML y CSS</h3>
+                        <p>Diseño de paginas web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../img/vue.png" alt="VUE">
+                    <div class="overlay">
+                        <h3>Diseño de paginas con VUE</h3>
+                        <p>Uso de frameworks para paginas web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../img/react.png" alt="React">
+                    <div class="overlay">
+                        <h3>Diseño de apps</h3>
+                        <p>Diseño de apps con React</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- MENU CONTACTO -->
+     <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número Telefónico">
+                    <input type="text" placeholder="Correo Electrónico">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <img src="../img/Mapa.png" alt="ImagenUbicacion">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Arroyo de Enmedio S/N, Santa Paula, Tonalá, Jalisco.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Llamanos al 3348786858
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: alainisraelmj@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- FOOTER -->
+     <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></i></a>
+        </div>
+     </footer>
+
+    <script src="../javascript/script.js"></script>
+</body>
+
+</html>
