@@ -27,4 +27,4 @@ Para comenzar a trabajar con este proyecto, sigue estos pasos:
 1. **Clona el repositorio** en tu máquina local:
 
    ```bash
-   git clone https://github.com/tuusuario/portafolio-web.git
+   https://github.com/alain-israel/PortfolioWeb.git
