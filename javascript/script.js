@@ -28,11 +28,15 @@ function efectoHabilidades() {
         habilidades[2].classList.add("htmlcss");
         habilidades[3].classList.add("canva");
         habilidades[4].classList.add("sql");
-        habilidades[5].classList.add("facpal");
-        habilidades[6].classList.add("org");
-        habilidades[7].classList.add("equipo");
-        habilidades[8].classList.add("liderazgo");
-        habilidades[9].classList.add("tforma");
+        habilidades[5].classList.add("vue");
+        habilidades[6].classList.add("react");
+        habilidades[7].classList.add("facpal");
+        habilidades[8].classList.add("org");
+        habilidades[9].classList.add("equipo");
+        habilidades[10].classList.add("liderazgo");
+        habilidades[11].classList.add("tforma");
+        habilidades[12].classList.add("met");
+        habilidades[13].classList.add("autodi");
     }
 }
 
